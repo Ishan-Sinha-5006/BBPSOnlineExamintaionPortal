@@ -1,0 +1,142 @@
+/* Basic reset to remove default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Body styling */
+  body {
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Container for the whole page */
+  .container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header styling */
+  header {
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 2px solid #007bff;
+  }
+  
+  h1 {
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .timer {
+    color: #ff0000;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: right;
+    margin-bottom: 20px;
+  }
+  
+  /* Question styling */
+  .question {
+    margin: 20px 0;
+    font-size: 1.1em;
+  }
+  
+  .question label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  /* Input styling */
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  /*Textual input ie subjective answers*/
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  /* Button styling */
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Navigation buttons (Next/Previous) */
+  .nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .nav-buttons button {
+    width: 48%;
+  }
+  
+  /* Submit button */
+  .submit-btn {
+    background-color: #28a745;
+  }
+  
+  .submit-btn:hover {
+    background-color: #218838;
+  }
+  /* Style for the navigation bar */
+nav ul {
+  list-style-type: none; /* Remove bullet points */
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333; /* Nav bar background color */
+  display: flex; /* This aligns the list items horizontally */
+  align-items: end;
+}
+
+/* Style for each list item */
+nav ul li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style for the links */
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Hover effect */
+nav ul li a:hover {
+  background-color: #111;
+  
+}
+tests{
+  padding-bottom: 15%; border-style: dashed; border-spacing: 10px; border-color: black; border-left-width: 15px; border-right-width: 15px; border-top-width: 15px; border-bottom-width: 15px;
+}
+.btn-primary{
+  background-color: #218838;
+}
